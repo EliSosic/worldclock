@@ -9,6 +9,8 @@ h1 {
 
 footer {
     text-align: center;
+    color: white;
+    margin-top: 10px;
 }
 
 .main-container { 
@@ -17,6 +19,13 @@ background-color: white;
   margin: 0 auto;
   max-width: 600px;
   padding: 10px 20px 20px 20px;
-  border-radius: 10px;
-   
+  border-radius: 10px;  
+}
+
+.city-1 {
+    margin: 10px;
+}
+
+.city-2 {
+    margin: 10px;
 }
