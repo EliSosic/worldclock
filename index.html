@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Clock - ELisa Sosic</title>
     <link rel="stylesheet" href="src/index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.44/moment-timezone-with-data-1970-2030.min.js"></script>
 
 </head>
 <body>
     <div class="main-container">
     <h1>
-        World Clock
+        🌎World Clock🌍
     </h1>
     <select>
         <option value=""> Select a city...</option>
@@ -20,16 +22,16 @@
     </select>
 
     <div class="city">
-    <div class="city-1">
+    <div class="city-1" id="city-1">
         <div class="city-name"> London 🏛️ </div>
-        <div class="date"> 12.01.2024 </div>
-        <div class="time"> 10:10:45 </div>
+        <div class="date">  </div>
+        <div class="time">  </div>
     </div>
 
-    <div class="city-2">
+    <div class="city-2" id="city-2">
         <div class="city-name"> Paris🥐 </div>
-        <div class="date"> 12.01.2024 </div>
-        <div class="time"> 10:10:45 </div>
+        <div class="date"> </div>
+        <div class="time">  </div>
     </div>
  </div>
 </div>
