@@ -38,6 +38,7 @@ function updateCity (event) {
         <div class="date">${cityTime.format("MMMM Do YYYY")}</div>
         <div class="time">${cityTime.format ("LTS")}</div>
     </div>
+    <a class="back" href="/"> ↩ Back to main </a>
     `
 }
 

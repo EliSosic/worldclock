@@ -12,6 +12,12 @@ h1 {
     font-size: 45px;
 }
 
+a {
+   color: antiquewhite;
+   font-weight: bold;
+   text-decoration-style: dotted;
+}
+
 select {
     display: block;
     width: 100%;
@@ -60,4 +66,8 @@ border-color: black;
     margin: 7px;
     font-size: 35px;
     font-weight: lighter;
+}
+
+.back {
+    font-size: 18px;
 }
