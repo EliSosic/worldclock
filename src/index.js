@@ -20,7 +20,7 @@ function updateTime() {
 
         city2DateElement.innerHTML = city2Time.format("MMMM Do YYYY")
         city2TimeElement.innerHTML = city2Time.format ("LTS");
-    };
+    }
 }
 
 function updateCity (event) {
@@ -33,18 +33,17 @@ function updateCity (event) {
     let citiesElement = document.querySelector("#cities");
     citiesElement.innerHTML = `
     <div>
-    <div class="city-1" id="city-1">
-        <div class="city-name"> ${cityName} 🌐</div>
+    <div>
+        <div> ${cityName} 🌐</div>
         <div class="date">${cityTime.format("MMMM Do YYYY")}</div>
         <div class="time">${cityTime.format ("LTS")}</div>
     </div>
     <a class="back" href="/"> ↩ Back to main </a>
-    `
+    `;
 }
 
 updateTime();
 setInterval(updateTime, 1000);
-
 
 let citiesSelectElement = document.querySelector("#city");
 
